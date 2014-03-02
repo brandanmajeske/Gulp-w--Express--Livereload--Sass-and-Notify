@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans);
+@import "bootstrap";
 
 $bp: #8a2be2;
 $wt: #ffffff;
@@ -26,8 +27,7 @@ body, html {
 
 p { 
 	font-size: 1.25em; 
-	color: darken($wt, 20%);
-	
+	color: darken($wt, 10%);
 }
 
 
