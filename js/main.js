@@ -1,0 +1,5 @@
+﻿(function() {
+
+    // do something
+
+})();

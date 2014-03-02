@@ -1,0 +1,22 @@
+﻿@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  background-color: #000000; }
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 25px; }
+  .container h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 5em;
+    color: #8a2be2; }
+
+p {
+  font-size: 1.25em;
+  color: #cccccc; }
+
+/*# sourceMappingURL=main.css.map */

@@ -10,6 +10,8 @@ var EXPRESS_PORT = 8080;
 var EXPRESS_ROOT = __dirname;
 var LIVERELOAD_PORT = 35729;
 
+console.log("Is it Windows? " + isWindows);
+
 function startLiveReload(){
 	lr = require('tiny-lr')();
 	lr.listen(LIVERELOAD_PORT);
@@ -43,7 +45,6 @@ gulp.task('css', function(){
 		.pipe(notify({ message: 'That\'s All Folks!'}));
 });*/
 
-console.log("Is it Windows? " + isWindows);
 
 function reload(sass,autoprefixer,notify){
 	return gulp.src('sass/main.scss')
